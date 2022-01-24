@@ -1,0 +1,226 @@
+* {
+    dimensionamento de caixa: caixa de borda;
+    margem: 0%;
+    família de fontes: Arial, Helvetica, sans-serif;
+}
+
+p{
+    cor: rgb(24, 24, 24);
+}
+
+
+.caixa{
+    exibição: flexível;
+}
+
+.centro {
+    altura: 500px;
+    justificar-conteúdo: centro;
+	alinhar-itens: centro;
+}
+
+#topo-centro {
+    alinhamento de texto: centro;
+    tamanho da fonte: 5em;
+    altura da linha: 75px;
+    cor: rgb(255, 255, 255);
+}
+
+#subtitulo-centro{
+    alinhamento de texto: centro;
+    tamanho da fonte: 1,5em;
+    margem inferior: 70px;
+    cor: rgba(255, 255, 255, 0,6);
+    
+}
+
+#centro{
+    imagem de fundo: url(imagens/banner.jpg);
+    repetição de fundo: sem repetição;
+    tamanho do fundo: capa;
+    altura: 550px;
+    transformação de texto: maiúsculas;
+    
+}
+
+li:último filho {
+    margem direita: 0;
+} 
+
+ul {
+    tipo de estilo de lista: nenhum;
+}
+
+li {
+    alinhamento de texto: centro;
+    margem direita: 50px;
+}
+
+uma {
+    decoração de texto: nenhuma;
+    cor:rgb(255, 255, 255, 0,6);
+    borda: sólido 2px transparente;
+    raio da borda: 50px;
+    preenchimento: 20px;
+    
+}
+a: pairar {
+    decoração de texto: nenhuma;
+    cor:rgb(255, 255, 255);
+    borda: RGB sólido (255, 255, 255);
+    preenchimento: 10px;
+    largura da borda: 2px;
+    preenchimento: 20px;
+}
+
+.rede {
+    preenchimento superior: 20px;
+    margem: 30px;
+    exibição: grade;
+    
+}
+
+.grid-column-row-area {
+    altura: 600px;
+    colunas-modelo de grade: 60% 40%;
+    grid-template-rows: 70px 160px 160px 160px;
+    grid-template-áreas:
+    "Título principal"
+    "artigo principal1"
+    "artigo principal2"
+    "artigo principal3";
+    intervalo de coluna: 50px;
+    
+}
+.heading-main {
+    intensidade da fonte: Negrito;
+    tamanho da fonte: 2.3em;
+    altura da linha: 40px;
+    transformação de texto: maiúsculas;
+    cor: rgb(58, 58, 58);
+}
+
+.content-main {
+    margem inferior: 25px;
+}
+
+#subtitle-main {
+    margem inferior: 25px;
+    tamanho da fonte: 1.1em;
+}
+
+artigo {
+    margem inferior: 20px;
+    margem direita: 50px;
+    borda inferior: sólido rgba(37, 37, 37, 0,3);
+    largura da borda: 2px;
+}
+
+artigo:último filho {
+    borda: nenhuma;
+}
+
+#heading-sidebar {
+    área da grade: título;
+    tamanho da fonte: 1.2em;
+    intensidade da fonte: Negrito;
+    cor: rgb(54, 54, 54);
+    transformação de texto: maiúsculas;
+    margem inferior: 70px;
+}
+
+#main {área da grade: principal; }
+#item2 {área da grade: artigo1; }
+#item3 {área da grade: artigo2; }
+#item4 {área da grade: artigo3; }
+
+.img {
+    margem inferior: 25px;
+    largura: 100%;
+}
+
+.data {
+    margem inferior: 25px;
+    cor:rgba(37, 37, 37, 0,6);
+}
+.barra lateral de conteúdo {
+    margem esquerda: 15px;
+    altura da linha: 23px;
+    
+}
+
+.flex-row {
+    direção flexível: linha;
+    margem esquerda: 30px;
+    margem direita: 30px;
+    preenchimento superior: 60px;
+    fundo de preenchimento: 60px;
+    
+}
+
+#background-pages {
+    cor de fundo: rgba(230, 230, 230, 0,699);
+}
+
+h3 {
+    transformação de texto: maiúsculas;
+    margem inferior: 30px;
+    cor: rgb(54, 54, 54);
+
+}
+
+botão {
+    margem superior: 40px;
+    tamanho da fonte: 17px;
+    transformação de texto: maiúsculas;
+    preenchimento: 15px;
+    borda: RGB sólido (255, 100, 51);
+    raio da borda: 35px;
+    cor: rgb(255, 255, 255);
+    cor de fundo: rgb(255, 100, 51);
+}
+
+botão: passar {
+    intensidade da fonte: Negrito;
+    cor da borda: rgb(255, 255, 255);
+}
+
+.Páginas {
+    margem direita: 30px;
+    
+}
+
+.pages:último filho {
+    margem direita: 0px;
+}
+
+#fundo-rodapé {
+    cor de fundo: rgb(26, 26, 26);
+
+}
+
+h2 {
+    tamanho da fonte: 1.2em;
+    cor: rgb(255, 255, 255);
+    margem inferior: 50px;
+    transformação de texto: maiúsculas;
+}
+ .content-footer {
+     tamanho da fonte: 0,9em;
+     cor: rgba(255, 255, 255, 0,6);
+     margem superior: 15px;
+     fundo de preenchimento: 15px;
+     borda inferior: sólido rgba(255, 255, 255, 0,6) 1px;
+}
+.content-footer:último filho {
+    borda: nenhuma;
+}
+
+.rodapé {
+    largura: 380px;
+    margem direita: 30px;
+}
+
+.footer:último filho {
+    margem direita: 0px;
+}
